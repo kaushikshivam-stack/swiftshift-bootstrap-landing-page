@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="one" src="./SVG icons/box-seam.svg" height="40px" alt="brand logo" />
+        SwiftShift
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Local Moves</a></li>
+              <li><a class="dropdown-item" href="#">Long Distance</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Packing Help</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Enter ZIP Code">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Move Made Simple</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Welcome to SwiftShift, your trusted partner for smooth and reliable relocation services
+        across the United States. We focus on making every move simple, organized, and stress-free
+        so you can enjoy your new beginning.
+      </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button class="btn btn-primary btn-lg px-4 me-sm-3">Request Pricing</button>
+        <button class="btn btn-outline-secondary btn-lg px-4">Reach Out</button>
+      </div>
+    </div>
+
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="./img/moving-van.jpg"
+          class="img-fluid border rounded-3 shadow-lg mb-4"
+          alt="moving van" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Why Choose SwiftShift?</h2>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./SVG icons/briefcase.svg" height="30px">
+        </div>
+        <h3 class="fs-2">Skilled Team</h3>
+        <p>
+          Our trained professionals handle every move with precision and care.
+          We focus on efficiency, safety, and respect for your belongings from
+          start to finish.
+        </p>
+        <a href="#" class="icon-link">
+          View pricing
+          <img src="./SVG icons/chevron-right.svg">
+        </a>
+      </div>
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./SVG icons/bus-front.svg" height="30px">
+        </div>
+        <h3 class="fs-2">Nationwide Coverage</h3>
+        <p>
+          From short-distance moves to cross-country relocations, we offer flexible
+          solutions tailored to your needs, with clear pricing and dependable service.
+        </p>
+        <a href="#" class="icon-link">
+          Explore services
+          <img src="./SVG icons/chevron-right.svg">
+        </a>
+      </div>
+
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./SVG icons/chat-square-heart.svg" height="30px">
+        </div>
+        <h3 class="fs-2">Customer First</h3>
+        <p>
+          We believe moving should be exciting, not stressful. Our personalized support
+          ensures clear communication and a smooth experience throughout your journey.
+        </p>
+        <a href="#" class="icon-link">
+          Talk to us
+          <img src="./SVG icons/chevron-right.svg">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/family.jpg" class="d-block w-100" alt="happy couple">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dog.jpg" class="d-block w-100" alt="pet relocation">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/couple.jpg" class="d-block w-100" alt="family move">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+
+        <div class="col-md-5 offset-md-1">
+          <form>
+            <h5>Stay Updated With Us</h5>
+            <p>Get tips, updates, and helpful moving advice in your inbox.</p>
+            <div class="d-flex gap-2">
+              <input type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary">Join Now</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>© 2024 SwiftShift Logistics. All rights reserved.<br>kaushikshivam804@gmail.com</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
