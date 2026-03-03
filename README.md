@@ -1,21 +1,27 @@
-# SwiftShift – Bootstrap Landing Page 🚚
+# 🚚 SwiftShift – Bootstrap Landing Page
 
-A responsive and modern landing page for a moving & logistics service, built using **HTML, CSS, and Bootstrap 5**.
+This is a beginner-friendly responsive landing page created while learning Bootstrap and practicing UI components.
 
-## 🚀 Features
-- Responsive Navbar
-- Hero Section with CTA
-- Feature Cards
-- Image Carousel
-- Footer with Newsletter Form
-
-## 🛠 Tech Stack
+## 🔧 Technologies Used
 - HTML5
-- CSS3
 - Bootstrap 5
 
-## 🌐 Live Demo
-https://kaushikshivam-stack.github.io/swiftshift-bootstrap-landing-page/
+## 📌 Features
+- Responsive navigation bar
+- Hero section with call-to-action buttons
+- Feature section using Bootstrap grid
+- Image carousel
+- Newsletter subscription form
+- Clean and modern layout
 
-## 📸 Preview
-(Add screenshots if possible)
+## 🌐 Live Demo
+👉 https://kaushikshivam-stack.github.io/swiftshift-bootstrap-landing-page/
+
+## 🙌 What I Learned
+- Using Bootstrap components effectively
+- Responsive layouts with Bootstrap grid system
+- Navbar, cards, carousel, and forms
+- Structuring a real-world landing page
+- Deploying a project using GitHub Pages
+
+⭐ This project helped me gain confidence in using Bootstrap for building real-world layouts.
