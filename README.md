@@ -24,4 +24,15 @@ This is a beginner-friendly responsive landing page created while learning Boots
 - Structuring a real-world landing page
 - Deploying a project using GitHub Pages
 
+  ## 📸 Project Screenshots
+
+Home Page
+[Screenshot1.png]
+
+Service Page
+[Screenshot2.png]
+
+Footer Section
+[Screenshot3.png]
+
 ⭐ This project helped me gain confidence in using Bootstrap for building real-world layouts.
